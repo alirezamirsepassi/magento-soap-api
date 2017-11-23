@@ -2,6 +2,7 @@
     "name": "alirezamirsepassi/magento-soap-api",
     "description": "A simple Magento Integration using SOAP v1 and v2.",
     "license": "GPL",
+    "version": "1.0.0",
     "keywords": ["laravel", "magento", "soap", "api"],
     "authors": [
         {
