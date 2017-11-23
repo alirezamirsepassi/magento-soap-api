@@ -1,5 +1,5 @@
 {
-    "name": "AlirezaMirsepassi/magento-soap-api",
+    "name": "alirezamirsepassi/magento-soap-api",
     "description": "A simple Magento Integration using SOAP v1 and v2.",
     "license": "GPL",
     "keywords": ["laravel", "magento", "soap", "api"],
