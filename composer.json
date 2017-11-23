@@ -1,0 +1,40 @@
+{
+    "name": "AlirezaMirsepassi/magento-soap-api",
+    "description": "A simple Magento Integration using SOAP v1 and v2.",
+    "license": "GPL",
+    "keywords": ["laravel", "magento", "soap", "api"],
+    "authors": [
+        {
+            "name": "Alireza Mirsepassi",
+            "email": "alirezamirsepassi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/contracts": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*"
+    },
+    "require-dev": {
+        "guzzle/guzzle": "^3.7",
+        "guzzlehttp/guzzle" : "^5.0|^6.0",
+        "kriswallsmith/buzz": "^0.10",
+        "orchestra/testbench": "~3.0",
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "^4.8|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlirezaMirsepassi\\Magento\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlirezaMirsepassi\\Magento\\MagentoServiceProvider"
+            ],
+            "aliases": {
+                "Magento": "AlirezaMirsepassi\\Magento\\Facades\\Magento"
+            }
+        }
+    }
+}
